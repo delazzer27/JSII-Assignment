@@ -165,7 +165,7 @@ result.addEventListener("click", ()=>{
     } else if (multiplying) {
         input.value = multiply(addNumber, parseInt(numberDisplay));
     } else if (dividing){
-        input.value = multiply(addNumber, parseInt(numberDisplay));
+        input.value = divide(addNumber, parseInt(numberDisplay));
     }
 })
     input.value = 0;
